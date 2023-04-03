@@ -1,6 +1,8 @@
 const mixergui = () => {
   return (
-    <div>mixergui</div>
+    <div className="relative top-[100px]">
+      mixergui
+    </div>
   )
 }
 
