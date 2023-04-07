@@ -3,7 +3,7 @@ const preview = () => {
     <div className="flex flex-col h-full">
 
       <div className="bg-tranparent py-3">
-        <h1 className="text-center">
+        <h1 className="text-center font-medium">
           PREVIEW
         </h1>
       </div>

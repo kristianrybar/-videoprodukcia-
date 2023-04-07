@@ -1,6 +1,6 @@
-import Navbar from './plugins/app/navbar/navbar'
-import MixerGUI from './plugins/app/mixergui/mixergui'
-import StatusBar from './plugins/app/statusbar/statusbar'
+import Navbar from './features/app/_layout/navbar/navbar'
+import MixerGUI from './features/app/_layout/mixergui/mixergui'
+import StatusBar from './features/app/_layout/statusbar/statusbar'
 
 function App() {
   return (

@@ -2,12 +2,11 @@ const layers = () => {
   return (
     <div className="px-2">
 
-      <div className="bg-tranparent py-3">
+      <div className="bg-tranparent py-3 font-medium">
         <h1 className="text-center">
           LAYERS
         </h1>
       </div>
-
 
       <div className="bg-[black] py-[11px] mb-[1px]">
         <h3 className="text-[12px] text-center relative top-[-10px]">

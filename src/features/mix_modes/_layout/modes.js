@@ -3,7 +3,7 @@ const modes = () => {
     <div className="flex flex-col px-2 text-[#525252] h-full">
 
       <div className="bg-tranparent py-3">
-        <h1 className="text-center">
+        <h1 className="text-center font-medium">
           MIXER MODES
         </h1>
       </div>
