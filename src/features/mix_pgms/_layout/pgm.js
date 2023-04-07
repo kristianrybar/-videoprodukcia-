@@ -3,12 +3,12 @@ const pgm = () => {
     <div className="flex flex-col h-full">
 
         <div className="bg-tranparent font-medium">
-            <button className="hover:bg-[#858585] hover:text-[#1a1a1a] text-center p-3">
-                PGM 1
+            <button className="hover:bg-[#858585] hover:text-[#1a1a1a] text-center py-3 px-4">
+                PGM-1
             </button>
 
-            <button className="hover:bg-[#858585] hover:text-[#1a1a1a] text-center p-3">
-                PGM 2
+            <button className="hover:bg-[#858585] hover:text-[#1a1a1a] text-center py-3 px-4">
+                PGM-2
             </button>
         </div>
 

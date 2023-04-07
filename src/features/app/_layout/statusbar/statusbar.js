@@ -7,7 +7,7 @@ const statusbar = () => {
             <code>status: fulfilled, result: connected</code>
           </span>         
         </p>
-        <button className="px-2 bg-red-700 rounded-sm">
+        <button className="px-2 bg-red-700 rounded-sm active:scale-[0.97]">
           <span className="relative bottom-[1px]">
             connect
           </span>

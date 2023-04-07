@@ -7,7 +7,7 @@ const cams = () => {
                 <h1 className="ml-[5px] text-center font-medium relative top-[10px]">
                     CAM 1
                 </h1>
-                <button className="px-2 bg-red-700 rounded-sm relative top-[7px]">
+                <button className="px-2 bg-red-700 rounded-sm text-white relative top-[7px] active:scale-[0.97]">
                     <span className="relative bottom-[1px]">
                         connect
                     </span>
@@ -23,7 +23,7 @@ const cams = () => {
                 <h1 className="ml-[5px] text-center font-medium relative top-[10px]">
                     CAM 2
                 </h1>
-                <button className="px-2 bg-red-700 rounded-sm relative top-[7px]">
+                <button className="px-2 bg-red-700 rounded-sm text-white relative top-[7px] active:scale-[0.97]">
                     <span className="relative bottom-[1px]">
                         connect
                     </span>
