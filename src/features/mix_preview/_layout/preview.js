@@ -1,18 +1,9 @@
-const preview = () => {
+import PreviewVideo from "../video/PreviewVideo"
+
+const Preview = () => {
   return (
-    <div className="flex flex-col h-full">
-
-      <div className="bg-tranparent py-3">
-        <h1 className="text-center font-medium">
-          PREVIEW
-        </h1>
-      </div>
-
-      <div className="bg-[#0f0f0f] h-full">
-      </div>
-
-    </div>
+    <PreviewVideo title='PREVIEW' />
   )
 }
 
-export default preview
+export default Preview

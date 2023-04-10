@@ -1,4 +1,7 @@
-const layers = () => {
+import Layer from "../Layer/Layer"
+import BtnLayers from "../button/BtnLayer"
+
+const Layers = () => {
   return (
     <div className="px-2">
 
@@ -8,51 +11,23 @@ const layers = () => {
         </h1>
       </div>
 
-      <div className="bg-[black] py-[11px] mb-[1px]">
-        <h3 className="text-[12px] text-center relative top-[-10px]">
-          LAYER1
-        </h3> 
-      </div>
+      <Layer title='LAYER 1' />
+      <Layer title='LAYER 1' />
+      <Layer title='LAYER 1' />
+      <Layer title='LAYER 1' />
+      <Layer title='LAYER 1' />
 
-      <div className="bg-[black] py-[11px] mb-[1px]">
-        <h3 className="text-[12px] text-center relative top-[-10px]">
-          LAYER1
-        </h3> 
-      </div>
+      <div className="flex items-center text-[14px] mt-[3px]">
 
-      <div className="bg-[black] py-[11px] mb-[1px]">
-        <h3 className="text-[12px] text-center relative top-[-10px]">
-          LAYER1
-        </h3> 
-      </div>
-
-      <div className="bg-[black] py-[11px] mb-[1px]">
-        <h3 className="text-[12px] text-center relative top-[-10px]">
-          LAYER1
-        </h3> 
-      </div>
-
-      <div className="bg-[black] py-[11px] mb-[1px]">
-        <h3 className="text-[12px] text-center relative top-[-10px]">
-          LAYER1
-        </h3> 
-      </div>
-
-      <div className="flex items-center justify-around text-[14px] mt-[3px]">
-        <div className="bg-[#231f20] w-full py-3 mr-[2px] cursor-pointer">
-          <h3 className="text-center">
-            ADD
-          </h3>
+        <BtnLayers title='ADD' />
+        <div className="bg-transparent px-[2px]">
         </div>
-        <div className="bg-[#231f20] w-full py-3 ml-[2px] cursor-pointer">
-          <h3 className="text-center">
-            CLEAR
-          </h3>
-        </div>
+        <BtnLayers title='CLEAR' />
+
       </div>
 
     </div>
   )
 }
 
-export default layers
+export default Layers

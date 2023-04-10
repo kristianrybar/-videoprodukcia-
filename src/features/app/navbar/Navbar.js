@@ -1,6 +1,6 @@
 import logo from './assets/logo-dark.svg'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <header className="bg-[#231f20] fixed inset-x-0 top-0 text-white py-[20px] z-[999]">
         <div className="flex items-center justify-start px-[15px]">
@@ -26,4 +26,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

@@ -1,8 +1,8 @@
-import Layers from '../../../mix_layers/_layout/layers'
-import Preview from '../../../mix_preview/_layout/preview'
-import Modes from '../../../mix_modes/_layout/modes'
-import Pgm from '../../../mix_pgms/_layout/pgm.js'
-import Cams from '../../../mix_cams/_layout/cam'
+import Layers from '../../mix_layers/_layout/Layers'
+import Preview from '../../mix_preview/_layout/Preview'
+import MixModes from '../../mix_modes/_layout/MixModes'
+import Pgm from '../../mix_pgms/_layout/Pgm.js'
+import Cameras from '../../mix_cams/_layout/Cameras'
 
 const mixergui = () => {
   return (
@@ -18,7 +18,7 @@ const mixergui = () => {
         </div>
 
         <div className='col-span-2 max-h-[300px]'>
-          <Modes />  
+          <MixModes />  
         </div>
 
         <div className='col-span-3 max-h-[300px]'>
@@ -26,7 +26,7 @@ const mixergui = () => {
         </div>
 
         <div className='col-span-2'>
-          <Cams />
+          <Cameras />
         </div>
         
       </div>
