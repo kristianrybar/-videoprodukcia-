@@ -2,7 +2,7 @@ import BtnMode from "../button/BtnMode"
 
 const MixModes = () => {
   return (
-    <div className="flex flex-col px-2 text-[#525252] h-full">
+    <div className="flex flex-col px-2 text-[#525252] h-full max-h-[300px]">
 
       <div className="bg-tranparent py-3">
         <h1 className="text-center font-medium">

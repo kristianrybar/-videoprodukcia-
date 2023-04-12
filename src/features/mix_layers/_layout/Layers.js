@@ -3,7 +3,7 @@ import BtnLayers from "../button/BtnLayer"
 
 const Layers = () => {
   return (
-    <div className="px-2">
+    <div className="px-2 max-h-[300px]">
 
       <div className="bg-tranparent py-3 font-medium">
         <h1 className="text-center">
