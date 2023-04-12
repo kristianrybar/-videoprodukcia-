@@ -2,7 +2,10 @@ import PreviewVideo from "../video/PreviewVideo"
 
 const Preview = () => {
   return (
-    <PreviewVideo title='PREVIEW' />
+    <div className="max-h-[300px]">
+      <PreviewVideo title='PREVIEW' />
+    </div>
+    
   )
 }
 
