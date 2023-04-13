@@ -1,17 +1,18 @@
-import CameraBtn from "../button/BtnCamera"
+import CameraBtn from '../button/BtnCamera'
+import css from './Camera.module.scss'
 
 const Camera = ({ cameraTitle }) => {
   return (
     <div>
 
-      <div className="flex items-center justify-between bg-tranparent py-3">
-        <h1 className="ml-[5px] text-center font-medium relative top-[10px]">
+      <div className={css.wrapper}>
+        <h1 className={css.title}>
           { cameraTitle }
         </h1>
         <CameraBtn title='connect' />
       </div>
 
-      <div className="min-h-[150px] bg-[#0f0f0f] h-full">
+      <div className={css.camera}>
       </div>
 
     </div>

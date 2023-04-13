@@ -1,6 +1,8 @@
+import css from './PgmVideo.module.scss'
+
 const PgmsVideo = () => {
   return (
-    <div className="bg-[#0f0f0f] h-full">
+    <div className={css.video}>
     </div>
   )
 }

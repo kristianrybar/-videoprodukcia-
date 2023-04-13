@@ -1,7 +1,9 @@
+import css from './BtnCamera.module.scss'
+
 const BtnCamera = ({title}) => {
   return (
-    <button className="px-2 bg-red-700 rounded-sm text-white relative top-[7px] active:scale-[0.97]">
-        <span className="relative bottom-[1px]">
+    <button className={css.btn}>
+        <span className={css.text}>
             {title}
         </span>
     </button>

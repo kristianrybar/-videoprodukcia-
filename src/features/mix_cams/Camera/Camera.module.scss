@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .wrapper {
+        @apply flex items-center justify-between bg-transparent py-3
+    }
+    .title {
+        @apply ml-[5px] text-center font-medium relative top-[10px]
+    }
+    .camera {
+        @apply min-h-[150px] bg-[#0f0f0f] h-full
+    }
+}

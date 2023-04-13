@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply bg-[#141414] w-full h-full mr-[1px]
+    }
+    .text {
+        @apply relative top-[60%] text-center
+    }
+
+}

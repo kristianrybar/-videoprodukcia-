@@ -1,7 +1,9 @@
+import css from './Layer.module.scss'
+
 const Layer = ({ title }) => {
   return (
-    <div className="bg-[black] py-[11px] mb-[1px]">
-      <h3 className="text-[12px] text-center relative top-[-10px]">
+    <div className={css.layer}>
+      <h3 className={css.text}>
         { title }
       </h3> 
     </div>

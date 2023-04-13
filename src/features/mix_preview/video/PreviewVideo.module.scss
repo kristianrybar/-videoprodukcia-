@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .wrapper {
+        @apply flex flex-col h-full max-h-[300px]
+    }
+    .title {
+        @apply bg-transparent py-3 text-center font-medium
+    }
+    .video {
+        @apply bg-[#0f0f0f] h-full
+    }
+}

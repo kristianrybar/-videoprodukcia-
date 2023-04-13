@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .switcher {
+        @apply hover:bg-[#858585] hover:text-[#1a1a1a] text-center py-3 px-4
+    }
+}

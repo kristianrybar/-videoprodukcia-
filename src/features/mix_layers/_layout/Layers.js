@@ -1,12 +1,13 @@
 import Layer from "../Layer/Layer"
 import BtnLayers from "../button/BtnLayer"
+import css from "./Layers.module.scss"
 
 const Layers = () => {
   return (
-    <div className="px-2 max-h-[300px]">
+    <div className={css.wrapper}>
 
-      <div className="bg-tranparent py-3 font-medium">
-        <h1 className="text-center">
+      <div className={css.title}>
+        <h1 className={css.text}>
           LAYERS
         </h1>
       </div>
@@ -17,11 +18,11 @@ const Layers = () => {
       <Layer title='LAYER 4' />
       <Layer title='LAYER 5' />
 
-      <div className="flex items-center text-[14px] mt-[3px]">
+      <div className={css.buttons}>
 
         <BtnLayers title='ADD' />
-        <div className="bg-transparent px-[2px]">
-        </div>
+          <div className={css.space}>
+          </div>
         <BtnLayers title='CLEAR' />
 
       </div>

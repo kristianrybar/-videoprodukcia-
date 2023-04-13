@@ -1,37 +1,36 @@
 import BtnMode from "../button/BtnMode"
+import css from './MixModes.module.scss'
 
 const MixModes = () => {
   return (
-    <div className="flex flex-col px-2 text-[#525252] h-full max-h-[300px]">
+    <div className={css.wrapper}>
 
-      <div className="bg-tranparent py-3">
-        <h1 className="text-center font-medium">
-          MIXER MODES
-        </h1>
-      </div>
+      <h1 className={css.title}>
+        MIXER MODES
+      </h1>
+      
+      <div className={css.buttonsWrapper}>
 
-      <div className="flex flex-col h-full">
-
-        <div className="flex items-center text-[12px] h-full mb-[2px]">
+        <div className={css.box}>
           <BtnMode title='PREVIEW' />
           <BtnMode title='DIRECT CUT' />
         </div>
 
-        <div className="flex items-center text-[12px] h-full mb-[2px]">
+        <div className={css.box}>
           <BtnMode title='COMNO' />
           <BtnMode title='CRO' />
         </div>
 
-        <div className="flex items-center text-[12px] h-full mb-[2px]">
+        <div className={css.box}>
           <BtnMode title='POM DIRECT' />
           <BtnMode title='TRANSITION' />
         </div>
 
-        <div className="flex items-center text-[12px] h-full mb-[2px]">
+        <div className={css.box}>
           <BtnMode title='TRANSITION SETTINGS' /> 
         </div>
 
-        <div className="flex items-center text-[12px] h-full">
+        <div className={css.box}>
           <BtnMode title='TRANSITION' />
           <BtnMode title='UNLOCK' />
         </div>

@@ -1,10 +1,12 @@
+import css from './BtnStatusbar.module.scss'
+
 const StatusbarBtn = ({ title }) => {
   return (
-    <button className="px-2 bg-red-700 rounded-sm active:scale-[0.97]">
-        <span className="relative bottom-[1px]">
-            { title }
+    <button className={css.btn}>
+        <span className={css.text}>
+          { title }
         </span>
-  </button>
+    </button>
   )
 }
 

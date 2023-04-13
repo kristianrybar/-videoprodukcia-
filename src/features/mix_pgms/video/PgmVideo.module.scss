@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .video {
+        @apply bg-[#0f0f0f] h-full
+    }
+}
