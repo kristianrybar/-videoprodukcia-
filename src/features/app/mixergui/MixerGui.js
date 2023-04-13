@@ -8,11 +8,11 @@ import css from './MixerGui.module.scss'
 const MixerGui = () => {
   return (
     <div className={`${css.wrapper} ${css.basicGrid}`}> 
-          <Layers />  
-          <Preview />
-          <MixModes />  
-          <Pgm />
-          <Cameras />    
+      <Layers />  
+      <Preview />
+      <MixModes />  
+      <Pgm />
+      <Cameras />    
     </div>
   )
 }
