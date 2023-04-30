@@ -1,4 +1,4 @@
-import logo from './assets/logo-dark.svg'
+import logo from './_assets/logo-dark.svg'
 import css from './Navbar.module.scss'
 
 const Navbar = () => {
