@@ -5,11 +5,11 @@ const Cameras = () => {
   return (
     <div className={css.wrapper}>
       <div>
-        <Camera cameraTitle='CAM 1' />
+        <Camera title='CAM 1' />
 
-        <Camera cameraTitle='CAM 2' />
+        <Camera title='CAM 2' />
 
-        <Camera cameraTitle='CAM 3' />
+        <Camera title='CAM 3' />
       </div>
   </div>
   )

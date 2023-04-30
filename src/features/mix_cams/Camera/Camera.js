@@ -1,13 +1,13 @@
-import CameraBtn from '../button/BtnCamera'
+import CameraBtn from '../button/cameraBtnConnect'
 import css from './Camera.module.scss'
 
-const Camera = ({ cameraTitle }) => {
+const Camera = ({ title }) => {
   return (
     <div>
 
       <div className={css.wrapper}>
         <h1 className={css.title}>
-          { cameraTitle }
+          { title }
         </h1>
         <CameraBtn title='connect' />
       </div>
