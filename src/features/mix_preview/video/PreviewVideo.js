@@ -1,11 +1,11 @@
 import css from './PreviewVideo.module.scss'
 
-const PreviewVideo = ({ title }) => {
+const PreviewVideo = () => {
   return (
     <div className={css.wrapper}>
  
       <h1 className={css.title}>
-        { title }
+        PREVIEW
       </h1>
 
       <div className={css.video}>
