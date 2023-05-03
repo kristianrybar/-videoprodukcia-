@@ -1,12 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-    .layer {
-        @apply bg-[black] py-[11px] mb-[1px]
-    }
-    .text {
-        @apply text-[12px] text-center relative top-[-10px]
-    }
+.layer {
+    @apply bg-[black] py-[11px] mb-[1px]
+}
+.text {
+    @apply text-[12px] text-center relative top-[-10px]
 }

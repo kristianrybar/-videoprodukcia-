@@ -1,21 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-    .wrapper {
-        @apply flex flex-col px-2 text-[#525252] h-full max-h-[300px]
-    }
-    .title {
-        @apply bg-transparent py-3 text-center font-medium
-    }
-    .buttonsWrapper {
-        @apply flex flex-col h-full
-    }
-    .box {
-        @apply flex items-center text-[12px] h-full mb-[2px]
-    }
-    .box:last-child {
-        @apply mb-[0px]
-    }
+.wrapper {
+    @apply flex flex-col px-2 text-[#525252] h-full max-h-[300px]
+}
+.title {
+    @apply bg-transparent py-3 text-center font-medium
+}
+.buttonsWrapper {
+    @apply flex flex-col h-full
+}
+.box {
+    @apply flex items-center text-[12px] h-full mb-[2px]
+}
+.box:last-child {
+    @apply mb-[0px]
 }

@@ -1,18 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-    .wrapper {
-        @apply flex items-center justify-start bg-[#231f20] fixed inset-x-0 top-0 text-white px-[15px] py-[20px] z-[999]
-    }
-    .logo {
-        @apply block w-[180px] mr-[50px] ml-[3%]
-    }
-    .list {
-        @apply flex items-center relative top-[4px] text-base text-[#FAFAFA]
-    }
-    .item {
-        @apply p-[3px] hover:text-[red] transition mr-[30px]
-    }
+.wrapper {
+    @apply flex items-center justify-start bg-[#231f20] fixed inset-x-0 top-0 text-white px-[15px] py-[20px] z-[999]
+}
+.logo {
+    @apply block w-[180px] mr-[50px] ml-[3%]
+}
+.list {
+    @apply flex items-center relative top-[4px] text-base text-[#FAFAFA]
+}
+.item {
+    @apply p-[3px] hover:text-[red] transition mr-[30px]
 }

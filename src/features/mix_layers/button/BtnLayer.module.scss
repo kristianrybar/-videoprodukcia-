@@ -1,12 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-    .btn {
-        @apply bg-[#231f20] w-full py-3 cursor-pointer
-    }
-    .text {
-        @apply text-center
-    }
+.btn {
+    @apply bg-[#231f20] w-full py-3 cursor-pointer
+}
+.text {
+    @apply text-center
 }

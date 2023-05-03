@@ -1,12 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-    .btn {
-        @apply px-2 bg-red-700 rounded-sm text-white relative top-[7px] active:scale-[0.97]
-    }
-    .text {
-        @apply relative bottom-[1px]
-    }
+.btn {
+    @apply px-2 bg-red-700 rounded-sm text-white relative top-[7px] active:scale-[0.97]
+}
+.text {
+    @apply relative bottom-[1px]
 }

@@ -1,21 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-    .wrapper {
-        @apply px-2 max-h-[300px]
-    }
-    .title {
-        @apply bg-transparent py-3 font-medium
-    }
-    .text {
-        @apply text-center
-    }
-    .buttons {
-        @apply flex items-center text-[14px] mt-[3px]
-    }
-    .space {
-        @apply bg-transparent px-[2px]
-    }
+.wrapper {
+    @apply px-2 max-h-[300px]
+}
+.title {
+    @apply bg-transparent py-3 font-medium
+}
+.text {
+    @apply text-center
+}
+.buttons {
+    @apply flex items-center text-[14px] mt-[3px]
+}
+.space {
+    @apply bg-transparent px-[2px]
 }
